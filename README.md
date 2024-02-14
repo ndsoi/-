@@ -15,9 +15,9 @@
 
 ### 03 多线程、搜索算法
 1. 爬虫属于I/O密集型操作，使用多线程可以提高效率
-2. 开启多线程的方式
-  1). 导入库 `from multiprocessing.dummy import Pool`
-  2).定义函数fun，定义可迭代对象list\n
-  3).申请线程池pool = Pool(线程数量)\n
-  4).多线程工作result = pool.map(fun,list)
+2. 开启多线程的方式<br>
+  1)导入库 `from multiprocessing.dummy import Pool`<br>
+  2)定义函数fun，定义可迭代对象list<br>
+  3)申请线程池pool = Pool(线程数量)<br>
+  4)多线程工作result = pool.map(fun,list)<br>
 3. 搜索算法，广度优先还是深度优先，依据于具体的问题而定
